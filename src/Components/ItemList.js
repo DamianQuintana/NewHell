@@ -1,11 +1,10 @@
 // //Es agrupador de set de componentes item.js
  import ItemListContainer from './ItemListContainer.js'
 import Item from './Item'
+
 const ItemList = (props)=>( //Lega un array de los items acá 
-<div style ={{color: "red"}}>
-    {props.items.map((x)=> 
-        <Item item= {x}/>
-        )}
+<div id ="hero">
+    {props.items.map((x)=> <Item item= {x}/> )}
 </div>
 ); 
 

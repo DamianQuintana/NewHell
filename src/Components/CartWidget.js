@@ -5,7 +5,7 @@ import PropGreeting from './PropGreeting';
 function CartWidget(){
    
     return(
-        <div>
+        <div id ="hero">
             <br/>
             <h1 style ={{marginTop: '150px'}}>COMPONENTE <span>CART WIDGET</span></h1>
             <img id="cartImage" src = {logo} style = {{maxWidth: '30%'}}></img>

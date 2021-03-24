@@ -36,7 +36,7 @@ const Counter = ({init, stock, onAdd}) =>{
             <button onClick ={handleSubtract}>-1</button>
             <form onSubmit ={ e=> onAdd(e, counter)}>
             <input value = {counter} onChange ={e =>handleChange(e)}></input>
-            <button type = "submit">ADD</button>
+            <button type = "submit">Agregar al carrito</button>
             </form>
         </div>
     );

@@ -1,5 +1,5 @@
 const DetailList = (props)=>( //Lega un array de los items acá 
-<div style ={{color: "red"}}>
+<div id ="item">
     {props.details.map((a)=> 
         <ItemDetail detail= {a}/>
         )}

@@ -10,9 +10,6 @@ function PropGreeting({greeting, buySome}){
     return(
             <div>
               <h1>{greeting} <p><span>{buySome}</span></p></h1>
-              {/* <ItemCount stock = {actualStock} initial ={1} onAdd ={restarStock} onLess ={sumarStock}/>  */}
-             <CounterApp/>
-              {/* //Aca ejecutamos ItemCOunt */}
             </div>
     );
 }
