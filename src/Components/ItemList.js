@@ -2,8 +2,8 @@
  import ItemListContainer from './ItemListContainer.js'
 import Item from './Item'
 
-const ItemList = (props)=>( //Lega un array de los items acá 
-<div id ="hero">
+const ItemList = (props)=>( //Lega un array de los detalles acá 
+<div>
     {props.items.map((x)=> <Item item= {x}/> )}
 </div>
 ); 

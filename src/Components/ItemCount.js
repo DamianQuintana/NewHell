@@ -8,6 +8,7 @@ const ItemCount = ({stock, initial ,onAdd, onLess}) =>{
     return(
         <div>
             <br/>
+            <h1>assssssssssssssssssssssssssssssssssssss</h1>
                 {cloth.map((a) => 
                 <p id="span"><div id ="span">stock: {stock}</div>
                 <span>{a}</span> <input id="cantidad" type="number" placeholder={initial}></input>

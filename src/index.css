@@ -164,7 +164,6 @@ code {
   height: 100vh;
   background: url("./Components/Image/Selene.jpg.PNG") top center;
   background-size: cover;
-  position: absolute;
   padding: 0;
 }
 
@@ -406,3 +405,7 @@ code {
 //Item list container va a llamar a list 
 item list luego utiliza item 
 Item solamente muestra la infromacion */
+
+#id{
+  color:violet;
+}

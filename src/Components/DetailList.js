@@ -1,8 +1,7 @@
+import ItemDetail from './ItemDetail'
 const DetailList = (props)=>( //Lega un array de los items acá 
-<div id ="item">
-    {props.details.map((a)=> 
-        <ItemDetail detail= {a}/>
-        )}
+<div>
+    {props.details.map((a)=>  <ItemDetail detail= {a}/>)}
 </div>
 ); 
 
